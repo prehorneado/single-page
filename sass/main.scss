@@ -1,1 +1,11 @@
 @import "reset";
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  line-height: normal;
+}
+*:focus {
+    outline: 0;
+}

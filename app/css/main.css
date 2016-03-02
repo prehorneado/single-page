@@ -62,3 +62,17 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 2, ../../sass/main.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+/* line 9, ../../sass/main.scss */
+*:focus {
+  outline: 0;
+}
